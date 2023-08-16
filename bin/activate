@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+export PATH=$PATH:/projappl/project_2003986/envs/$1/bin

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mkdir $1
+echo 'setwd("'$(pwd -P)"/$1"'")' > $1/$1.R
+
+mkdir $1/inputs
+mkdir $1/outText
+mkdir $1/outPlots
+mkdir $1/outRobj

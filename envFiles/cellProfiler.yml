@@ -1,0 +1,9 @@
+name: cellProfiler
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cellprofiler=4.2.1
+  - mahotas
+  

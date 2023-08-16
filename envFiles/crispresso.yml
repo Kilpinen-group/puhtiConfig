@@ -1,0 +1,7 @@
+name: crispresso
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - crispresso2=2.1.0

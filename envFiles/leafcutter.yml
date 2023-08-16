@@ -1,0 +1,13 @@
+name: leafcutter
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - davidaknowles
+  - R
+dependencies:
+  - r-leafcutter
+  - star
+  - regtools
+  - python=2.7
+  - r-base=3.6

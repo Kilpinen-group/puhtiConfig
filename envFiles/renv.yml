@@ -1,0 +1,19 @@
+name: renv
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-devtools
+  - r-base
+  - python
+  - trimap
+  - numpy
+  - leidenalg
+  - imagemagick
+  - geos
+  - cairo
+  - firefox
+  - r-xml
+  - r-httpgd
+  - r-languageserver

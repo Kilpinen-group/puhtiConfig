@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+module load tykky
+
+envName=$(grep "name:" "$1" | cut -d ":" -f 2 | tr -d '[:space:]')
+
+envDir="/projappl/project_2003986/envs/$envName"
+
+echo $envDir
+mkdir $envDir
+conda-containerize new --mamba --prefix $envDir $1
+

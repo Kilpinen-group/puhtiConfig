@@ -1,0 +1,10 @@
+Host *
+	ServerAliveInterval 240
+
+Host puhti
+	HostName puhti.csc.fi
+	User dmeister
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+

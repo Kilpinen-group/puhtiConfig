@@ -1,0 +1,21 @@
+{
+	"IS_PAIRED_END": false,
+	"PRELOAD_GENOME":false,
+	"STAR_ALIGN_MULTIPLE_FILE":true,
+	"MAX_SIZE_PER_MULTIPLE_ALIGN": 100,
+	"READ_LENGTH" : 0,
+	"STAR_GENOME_THREADS": 30,
+	"THREAD_PER_SAMPLE": 5,
+	"FASTA_REFERENCE": "/fs/projects/kilpinen/GenomeRef/GRCh38/HS.GRCh38.fa",
+	"GTF_REFERENCE": "/fs/projects/kilpinen/GenomeRef/GRCh38/GTF/Homo_sapiens.GRCh38.90.gtf",
+	"FASTQ_PATH": "/homes/dmeister/rnaseq_align/testFolder/fastq",
+	"OUTPUT_PATH": "/homes/dmeister/rnaseq_align/testFolder/output",
+	"PAIR_END_FILE_PATTERN":"_",
+	"FORWARD_ADAPTATOR":"AAGCAGTGGTATCAACGCAGAGTACAT",
+	"REVERSE_ADAPTATOR":"",
+	"GENOME_INDEX_RAM":168632718037,
+	"CUTADAPT_MIN_READ_LEN":10,
+	"DEDUP_UMI" : false,
+	"FEATURE_TYPE":"exon",
+	"FEATURE_ID":"gene_name"
+}
