@@ -7,4 +7,4 @@ Host puhti
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
-
+	MACs hmac-sha2-512

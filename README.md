@@ -2,6 +2,8 @@
 
 All files and folder have to be copied in puhti's home (default directory when logging in), except *sshLocal* content which belongs to local home folder (`~/.ssh`)
 
+activate, createEnv, and bash_export have to be modified to point to the right project/folder.
+
 ## File Description
 
 📦puhtiConfig

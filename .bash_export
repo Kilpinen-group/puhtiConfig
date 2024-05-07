@@ -1,1 +1,2 @@
 export PATH=$PATH:$HOME/bin
+export TMPDIR=/scratch/project_2003986/tmp
